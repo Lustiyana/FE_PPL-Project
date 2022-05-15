@@ -68,6 +68,7 @@ div.content{
 }
 
 .btn-signin {
+  width: 100%;
   text-transform: capitalize;
   font-size: 18px;
   font-weight: 400;

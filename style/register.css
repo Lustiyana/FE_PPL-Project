@@ -13,6 +13,53 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+#register-form .flex-container{
+    height: 95vh;
+}
+
+#register-form .flex-container .box{
+    width: 520px;
+    height: 506px;
+}
+
+#register-form .flex-container .register{
+    width: 100%;
+}
+
+#register-form .register h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+#register-form form input{
+    height: 48px;
+    border-radius: 12px;
+}
+
+#register-form .name-field div{
+    width: 48%;
+}
+
+#register-form form .btn-box{
+    display: flex;
+    align-items: center;
+    background-color: #72D88F;
+    border-radius: 12px;
+    height: 48px;
+}
+
+#register-form form .btn-signup{
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFF;
+    text-decoration: none;
+}
+
 #footer {
     display: flex;
     flex-wrap: wrap;

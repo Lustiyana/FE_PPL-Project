@@ -6,6 +6,7 @@ body {
 .navbar {
   font-family: "Inter", sans-serif;
   font-weight: 500;
+  background-color: white;
 }
 .navbar .nav-logo {
   width: 171px;
@@ -13,7 +14,6 @@ body {
 }
 
 .navbar .nav-body {
-  display: flex;
   justify-content: space-between;
 }
 .navbar .nav-body .navbar-nav .nav-item .active {
@@ -33,6 +33,11 @@ body {
   margin-right: 24px;
   font-family: "Lobster", sans-serif;
   font-size: 24px;
+}
+.navbar .profile .dropdown-item {
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
 }
 
 /* Content */

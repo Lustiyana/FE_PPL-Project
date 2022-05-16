@@ -109,38 +109,74 @@
     </nav>
 
     <!-- Content -->
-    <div class="profile-content">
-      <div class="profile-header row">
-        <div class="profile-name col-10">
-          <img src="images/profile-logo-big.png" alt="" />
-          <h5>Agus</h5>
-        </div>
-        <div class="edit col-2">
-          <a href="editprofile.html" class="text-right">Edit</a>
-        </div>
+    <div class="edit-profile">
+      <div class="img-profile">
+        <h5>Edit Profile</h5>
+        <img class="photos" src="images/profile-logo-big.png" alt="" />
+        <img class="icon" src="images/edit-icon.svg" alt="" />
       </div>
-      <div class="profile-item">
-        <table>
-          <tr>
-            <td>Sign-In Email</td>
-            <td>Agus01@gmail.com</td>
-          </tr>
-          <tr>
-            <td>Sign-In Password</td>
-            <td>********</td>
-          </tr>
-          <tr>
-            <td>Phone</td>
-            <td>0812345678</td>
-          </tr>
-          <tr>
-            <td>Address</td>
-            <td>Jalan Bahagia, Bandung Jawa Barat</td>
-          </tr>
-        </table>
+      <div class="edit-item">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputFisrtName" class="form-label">First Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputEmail4"
+              value="Agus"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputLastName" class="form-label">Last Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputPassword4"
+              value="01"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail4"
+              value="Agus01@gmail.com"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputPhone" class="form-label">Phone Number</label>
+            <input
+              type="number"
+              class="form-control"
+              id="inputPhone"
+              value="0812345678"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              value="Jalan Bahagia, Bandung Jawa Barat"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="inputAddress"
+              value="tugas-ppl"
+            />
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Saves</button>
+          </div>
+        </form>
       </div>
     </div>
-
     <!-- Footer -->
     <section id="footer">
       <div></div>

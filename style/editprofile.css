@@ -1,0 +1,21 @@
+.edit-profile {
+  max-width: 720px;
+  margin-left: 129px;
+  margin-top: 64px;
+  margin-bottom: 24px;
+}
+.img-profile {
+  max-width: 121px;
+  margin-bottom: 42px;
+}
+.img-profile h5 {
+  text-align: center;
+}
+.img-profile .icon {
+  display: inline-block;
+  position: absolute;
+  padding-top: 80px;
+}
+.img-profile .photos {
+  margin-right: -24px;
+}

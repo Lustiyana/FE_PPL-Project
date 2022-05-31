@@ -33,7 +33,7 @@ strong, small{
     border: none;
 }
 
-#schedule .submit button{
+#schedule .submit a{
     width: 120px;
     height: 56px;
     background-color: #47C8FF;

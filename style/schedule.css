@@ -7,10 +7,7 @@
 #table .table-responsive .btn-box {
     display: flex;
     align-items: center;
-    background: #EBF9F1;
     border-radius: 22px;
-    width: 68px;
-    height: 31px;
 }
 
 #table .table-responsive .btn-booking {
@@ -22,37 +19,22 @@
     text-decoration: none;
 }
 
-#footer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 5vh;
+#table .table-responsive .btn-box.valid{
+    width: 68px;
+    height: 31px;
+    background: #EBF9F1;
 }
 
-#footer div {
-    width: 33.3%;
+#table .table-responsive .btn-booking.valid{
+    color: #1F9254;
 }
 
-#footer p {
-    margin-top: -2px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 700;
-    color: rgba(0, 0, 0, 0.6);
+#table .table-responsive .btn-box.invalid{
+    width: 105px;
+    height: 31px;
+    background: #D30000;
 }
 
-#footer p span {
+#table .table-responsive .btn-booking.invalid{
     color: #FFF;
-}
-
-#footer .sosmed {
-    display: flex;
-    justify-content: end;
-}
-
-#footer .sosmed a {
-    margin-top: -25px;
-    margin-right: 40px;
 }

@@ -25,12 +25,6 @@
 
     <!-- Custom styles for this template -->
     <link href="css/sb-admin-2.min.css" rel="stylesheet" />
-
-    <!-- Custom styles for this page -->
-    <link
-      href="vendor/datatables/dataTables.bootstrap4.min.css"
-      rel="stylesheet"
-    />
   </head>
 
   <body id="page-top">
@@ -190,8 +184,19 @@
                         <td>20.00 - 21.00</td>
                         <td>Rp. 100.000</td>
                         <td><a href="#">Download</a></td>
-                        <td><div>Belum Lunas</div></td>
-                        <td></td>
+                        <td>Belum Lunas</td>
+                        <td>
+                          <button
+                            style="background-color: transparent; border: none"
+                          >
+                            <img src="../images/cross.svg" alt="" />
+                          </button>
+                          <button
+                            style="background-color: transparent; border: none"
+                          >
+                            <img src="../images/checklist.svg" alt="" />
+                          </button>
+                        </td>
                       </tr>
                       <tr>
                         <td>INV-000002</td>
@@ -202,7 +207,23 @@
                         <td>Rp. 300.000</td>
                         <td><a href="#">Download</a></td>
                         <td><div>Lunas</div></td>
-                        <td></td>
+                        <td>
+                          <button
+                            style="background-color: transparent; border: none"
+                            disabled
+                          >
+                            <img src="../images/cross_disabled.svg" alt="" />
+                          </button>
+                          <button
+                            style="background-color: transparent; border: none"
+                            disabled
+                          >
+                            <img
+                              src="../images/checklist_disabled.svg"
+                              alt=""
+                            />
+                          </button>
+                        </td>
                       </tr>
                     </tbody>
                   </table>
